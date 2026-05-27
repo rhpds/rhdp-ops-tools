@@ -64,7 +64,7 @@ Interactive modules teaching workshop deployment, operations, CSV processing, an
 
 Start with:
 ```
-/courseware
+/ops-courseware
 ```
 
 Then launch a module:
@@ -87,7 +87,7 @@ Each module follows a structured learning path:
 5. **Challenge** — Hands-on task using real team data
 6. **Challenge Verification** — Confirm your results
 
-Modules are self-paced and track progress in `~/.claude/courseware-progress/`.
+Modules are self-paced and track progress in `~/.claude/ops-courseware-progress/`.
 
 ## MCP Servers
 

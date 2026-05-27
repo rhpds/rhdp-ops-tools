@@ -83,7 +83,7 @@ echo "---"
 ## Guidance
 
 **All checks pass?**
-Run `/courseware` to see available modules.
+Run `/ops-courseware` to see available modules.
 
 **Missing MCP servers?**
 Run the automated setup script:

@@ -49,7 +49,7 @@ To add a new domain:
 1. Create `domain/` directory
 2. Add `domain/modules/`, `domain/skills/`, `domain/scripts/`
 3. Create dispatchers in `.claude/commands/learn-domain-NN-*.md`
-4. Update `.claude/commands/courseware.md` catalog
+4. Update `.claude/commands/ops-courseware.md` catalog
 5. Update README.md domain table
 
 ## Key Conventions
@@ -90,7 +90,7 @@ git tag -a vX.Y.Z -m "description of release"
 ### New Module
 1. Create `domain/modules/NN-topic.md` following the structure above
 2. Create `.claude/commands/learn-domain-NN-topic.md` as dispatcher
-3. Add to `.claude/commands/courseware.md` catalog
+3. Add to `.claude/commands/ops-courseware.md` catalog
 4. Update README.md module table
 5. Commit: "add module NN: topic name"
 

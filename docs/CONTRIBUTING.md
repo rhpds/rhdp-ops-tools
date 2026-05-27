@@ -9,7 +9,7 @@ rhdp-ops-tools/
   .claude/
     commands/              # skill dispatchers and catalog
       learn-domain-NN-*.md # module dispatchers
-      courseware.md        # module catalog
+      ops-courseware.md        # module catalog
       preflight.md         # prerequisites check
       references/
         context.md         # team-specific values
@@ -45,7 +45,7 @@ A domain is a collection of related modules, skills, and scripts (e.g., Flow, In
    touch .claude/commands/learn-domain-01-topic.md
    ```
 
-4. **Update catalog** in `.claude/commands/courseware.md`:
+4. **Update catalog** in `.claude/commands/ops-courseware.md`:
    - Add domain section with module table
    - Add routing entries to Module Routing Table
    - Update module count in footer
@@ -145,7 +145,7 @@ Modules are interactive learning experiences.
    Track progress in ~/.claude/courseware-progress/.
    ```
 
-4. **Update catalog** (`.claude/commands/courseware.md`):
+4. **Update catalog** (`.claude/commands/ops-courseware.md`):
    - Add row to domain module table
    - Add routing entry to Module Routing Table
    - Update total time calculation
