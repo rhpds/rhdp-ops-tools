@@ -1,0 +1,9 @@
+{
+  "name": "rhdp-ops-tools",
+  "description": "RHDP operations toolkit -- Flow workshop automation, showroom QA, and ops training modules",
+  "version": "1.0.0",
+  "author": { "name": "RHDP Team" },
+  "repository": "https://github.com/rhpds/rhdp-ops-tools",
+  "license": "Apache-2.0",
+  "keywords": ["rhdp", "ops", "flow", "workshops", "qa"]
+}

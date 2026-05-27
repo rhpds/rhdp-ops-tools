@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(python3 *)",
+      "Bash(python3 -c *)",
+      "Bash(pip install *)",
+      "Bash(bash *)",
+      "Bash(ls *)",
+      "Bash(grep *)",
+      "Bash(mkdir -p *)"
+    ]
+  },
+  "mcpServers": {
+    "rhdp-flow": {
+      "command": "python3",
+      "args": ["-m", "rhdp_flow_mcp"],
+      "env": { "FLOW_API_URL": "http://localhost:8000" }
+    },
+    "rhdp-flow-csv": {
+      "command": "python3",
+      "args": ["-m", "rhdp_flow_csv"]
+    },
+    "rhdp-flow-intel": {
+      "command": "python3",
+      "args": ["-m", "rhdp_flow_intel"],
+      "env": { "FLOW_API_URL": "http://localhost:8000" }
+    }
+  }
+}
